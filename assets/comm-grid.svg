@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Grille">
+  <rect width="300" height="300" fill="#141414"/>
+  <g stroke="#F5F5F2" stroke-opacity=".1" stroke-width="1">
+    <path d="M50 0 V300 M100 0 V300 M150 0 V300 M200 0 V300 M250 0 V300 M0 50 H300 M0 100 H300 M0 150 H300 M0 200 H300 M0 250 H300"/>
+  </g>
+  <circle cx="150" cy="150" r="6" fill="#C1121F"/>
+  <circle cx="150" cy="150" r="20" fill="none" stroke="#C1121F" stroke-opacity=".5" stroke-width="1.5"/>
+  <circle cx="50" cy="100" r="3" fill="#B89B5E"/>
+  <circle cx="250" cy="200" r="3" fill="#F5F5F2" fill-opacity=".5"/>
+</svg>

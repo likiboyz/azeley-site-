@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Plan de Paris stylisé">
+  <rect width="300" height="300" fill="#141414"/>
+  <g transform="translate(20,30) scale(0.65)">
+    <path d="M60 160 C50 110 90 70 150 55 C210 42 290 45 330 75 C365 100 360 150 350 180 C342 215 320 255 270 270 C220 283 140 278 95 250 C65 230 70 200 60 160 Z"
+          fill="none" stroke="#F5F5F2" stroke-opacity=".7" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M200 60 C150 90 130 140 160 180 C190 215 250 215 280 185" fill="none" stroke="#C1121F" stroke-opacity=".6" stroke-width="3"/>
+    <circle cx="206" cy="150" r="5" fill="#C1121F"/>
+  </g>
+  <text x="20" y="285" font-family="'Courier New', monospace" font-size="13" letter-spacing="3" fill="#B89B5E" fill-opacity=".7">XVIII · PARIS</text>
+</svg>

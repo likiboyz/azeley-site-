@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Slash signature">
+  <rect width="300" height="300" fill="#141414"/>
+  <g>
+    <polygon points="40,300 90,300 200,0 150,0" fill="#C1121F" opacity=".85"/>
+    <polygon points="120,300 150,300 250,0 220,0" fill="#F5F5F2" opacity=".12"/>
+    <polygon points="190,300 205,300 290,0 275,0" fill="#B89B5E" opacity=".4"/>
+  </g>
+  <text x="24" y="280" font-family="'Courier New', monospace" font-size="14" letter-spacing="3" fill="#F5F5F2" fill-opacity=".5">// PARIS</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chaussettes AZELEY">
+  <defs>
+    <radialGradient id="sp" cx="50%" cy="6%" r="78%"><stop offset="0" stop-color="#F5F5F2" stop-opacity=".08"/><stop offset="60%" stop-color="#F5F5F2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="rd" cx="50%" cy="120%" r="55%"><stop offset="0" stop-color="#C1121F" stop-opacity=".3"/><stop offset="70%" stop-color="#C1121F" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#161616"/>
+  <rect width="400" height="400" fill="url(#sp)"/>
+  <rect width="400" height="400" fill="url(#rd)"/>
+  <ellipse cx="200" cy="332" rx="100" ry="14" fill="#000" opacity=".38"/>
+  <g transform="translate(70,42) scale(2.6)" stroke="#F5F5F2" stroke-opacity=".22" stroke-width=".8" stroke-linejoin="round">
+    <path d="M50 18 L72 18 L72 64 C72 70 76 74 84 80 C94 88 96 100 88 106 C80 112 66 108 60 100 L52 88 C50 84 50 80 50 74 Z" fill="#272727"/>
+    <rect x="50" y="24" width="22" height="5" fill="#C1121F" stroke="none"/>
+  </g>
+  <text x="26" y="374" font-family="Arial, sans-serif" font-size="22" fill="#B89B5E" fill-opacity=".85">III</text>
+  <text x="374" y="374" text-anchor="end" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="38" fill="#F5F5F2" fill-opacity=".05">AZ</text>
+</svg>
