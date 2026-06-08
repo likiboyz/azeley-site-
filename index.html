@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AZELEY — Marque de streetwear parisienne. Un Maximum pour être un Minimum pour devenir. Solidarité, élégance urbaine, ambition collective." />
+  <meta name="theme-color" content="#0D0D0D" />
+  <title>AZELEY — Streetwear parisien</title>
+
+  <!-- Préchargement des polices (optionnel, retire ces lignes pour 100% offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====================== HEADER ====================== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#hero" class="logo" aria-label="AZELEY — accueil">
+        A<span class="logo__z">Z</span>ELEY
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <a href="#mentalite" class="nav__link">La Mentalité</a>
+        <a href="#collection" class="nav__link">Collection</a>
+        <a href="#signature" class="nav__link">Le T-shirt</a>
+        <a href="#vision" class="nav__link">Vision</a>
+        <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ====================== HERO ====================== -->
+    <section class="hero" id="hero">
+      <!-- Filigrane décoratif : chiffres romains des arrondissements -->
+      <div class="hero__watermark" aria-hidden="true">XVIII</div>
+
+      <div class="hero__content">
+        <p class="hero__tag reveal">Paris · Depuis la rue</p>
+
+        <h1 class="hero__title">
+          <span class="reveal" style="--d:.05s">UN</span>
+          <span class="reveal accent" style="--d:.15s">MAXIMUM</span>
+          <span class="reveal" style="--d:.25s">POUR ÊTRE</span>
+          <span class="reveal" style="--d:.35s">UN</span>
+          <span class="reveal accent" style="--d:.45s">MINIMUM</span>
+          <span class="reveal" style="--d:.55s">POUR DEVENIR</span>
+        </h1>
+
+        <p class="hero__lead reveal" style="--d:.65s">
+          Le vêtement n'est qu'un début. AZELEY, c'est une mentalité&nbsp;:
+          monter ensemble, rester humble, porter Paris sur les épaules.
+        </p>
+
+        <div class="hero__actions reveal" style="--d:.75s">
+          <a href="#collection" class="btn btn--primary">Découvrir la collection</a>
+          <a href="#mentalite" class="btn btn--ghost">La mentalité</a>
+        </div>
+      </div>
+
+      <a href="#mentalite" class="hero__scroll" aria-label="Faire défiler vers le bas">
+        <span class="hero__scroll-line"></span>
+        Défiler
+      </a>
+    </section>
+
+    <!-- ====================== LA MENTALITÉ ====================== -->
+    <section class="section mentalite" id="mentalite">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">01</span>
+          <h2 class="section__title">La mentalité <span class="accent">AZELEY</span></h2>
+        </div>
+
+        <p class="mentalite__manifesto reveal">
+          On ne vient pas tous du même endroit, mais on regarde tous le même
+          sommet. AZELEY rassemble celles et ceux qui veulent réussir
+          <em>sans écraser</em>, briller <em>sans oublier d'où ils viennent</em>.
+          Donner un maximum aujourd'hui pour rester un minimum demain — humble,
+          ancré, debout.
+        </p>
+
+        <ul class="values">
+          <li class="value reveal" style="--d:.0s"><span class="value__num">+ 01</span><h3>Solidarité</h3><p>Personne ne monte seul. On tend la main, on tire vers le haut.</p></li>
+          <li class="value reveal" style="--d:.06s"><span class="value__num">+ 02</span><h3>Entraide</h3><p>Le savoir et les opportunités se partagent. Le collectif d'abord.</p></li>
+          <li class="value reveal" style="--d:.12s"><span class="value__num">+ 03</span><h3>Savoir-vivre</h3><p>Le respect en toute circonstance. La rue a ses codes, on les honore.</p></li>
+          <li class="value reveal" style="--d:.18s"><span class="value__num">+ 04</span><h3>Savoir-être</h3><p>Avant le paraître, l'attitude. Rester juste, droit, fiable.</p></li>
+          <li class="value reveal" style="--d:.24s"><span class="value__num">+ 05</span><h3>Ambition collective</h3><p>Viser haut, mais ensemble. Une réussite qui rayonne sur le groupe.</p></li>
+          <li class="value reveal" style="--d:.30s"><span class="value__num">+ 06</span><h3>Humilité</h3><p>Le minimum dans l'égo, le maximum dans le travail.</p></li>
+          <li class="value reveal" style="--d:.36s"><span class="value__num">+ 07</span><h3>Élégance urbaine</h3><p>Sobre, fort, intemporel. Paris dans chaque coupe.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====================== COLLECTION ====================== -->
+    <section class="section collection" id="collection">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">02</span>
+          <h2 class="section__title">La <span class="accent">collection</span></h2>
+          <p class="section__sub">Première salve. Les essentiels, faits pour durer.</p>
+        </div>
+
+        <div class="grid">
+
+          <article class="product reveal" style="--d:.0s">
+            <div class="product__visual">
+              <!-- Icône T-shirt -->
+              <svg viewBox="0 0 120 120" class="product__icon" aria-hidden="true">
+                <path d="M38 22 L48 16 C54 24 66 24 72 16 L82 22 L102 34 L94 52 L84 47 L84 104 L36 104 L36 47 L26 52 L18 34 Z"/>
+              </svg>
+            </div>
+            <div class="product__body">
+              <span class="product__cat">Le textile</span>
+              <h3 class="product__name">T-shirts</h3>
+              <p class="product__desc">Coton épais, coupe oversize. Le logo devant, Paris au dos.</p>
+            </div>
+          </article>
+
+          <article class="product reveal" style="--d:.08s">
+            <div class="product__visual">
+              <!-- Icône casquette -->
+              <svg viewBox="0 0 120 120" class="product__icon" aria-hidden="true">
+                <path d="M22 78 C22 50 40 36 60 36 C82 36 96 52 98 74 L102 78 C104 79 104 84 100 84 L34 84 C26 84 22 82 22 78 Z"/>
+              </svg>
+            </div>
+            <div class="product__body">
+              <span class="product__cat">La tête</span>
+              <h3 class="product__name">Casquettes</h3>
+              <p class="product__desc">Profil bas, broderie discrète. Le détail qui signe la tenue.</p>
+            </div>
+          </article>
+
+          <article class="product reveal" style="--d:.16s">
+            <div class="product__visual">
+              <!-- Icône chaussette -->
+              <svg viewBox="0 0 120 120" class="product__icon" aria-hidden="true">
+                <path d="M50 18 L72 18 L72 64 C72 70 76 74 84 80 C94 88 96 100 88 106 C80 112 66 108 60 100 L52 88 C50 84 50 80 50 74 Z"/>
+              </svg>
+            </div>
+            <div class="product__body">
+              <span class="product__cat">Le détail</span>
+              <h3 class="product__name">Chaussettes</h3>
+              <p class="product__desc">Bande rouge signature. Le confort de la rue jusqu'au sol.</p>
+            </div>
+          </article>
+
+          <article class="product reveal" style="--d:.24s">
+            <div class="product__visual">
+              <!-- Icône bonnet -->
+              <svg viewBox="0 0 120 120" class="product__icon" aria-hidden="true">
+                <path d="M30 82 C30 52 42 32 60 32 C78 32 90 52 90 82 Z M24 82 L96 82 L96 96 L24 96 Z"/>
+              </svg>
+            </div>
+            <div class="product__body">
+              <span class="product__cat">L'hiver</span>
+              <h3 class="product__name">Bonnets</h3>
+              <p class="product__desc">Maille douce, étiquette tissée. Pour les nuits parisiennes.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== T-SHIRT SIGNATURE ====================== -->
+    <section class="section signature" id="signature">
+      <div class="container signature__grid">
+
+        <div class="signature__text reveal">
+          <span class="section__index">03</span>
+          <h2 class="section__title">Le t-shirt <span class="accent">signature</span></h2>
+          <p class="signature__lead">
+            La pièce qui ouvre tout. Devant, le logo, sobre et net. Au dos,
+            le plan des vingt arrondissements de Paris en chiffres romains —
+            la ville qu'on porte, l'escargot qu'on remonte.
+          </p>
+          <p class="signature__slogan">
+            « Un <span class="accent">Maximum</span> pour être un
+            <span class="accent">Minimum</span> pour devenir »
+          </p>
+
+          <!-- Sélecteur devant / dos -->
+          <div class="signature__toggle" role="tablist" aria-label="Faces du t-shirt">
+            <button class="toggle__btn is-active" data-face="front" role="tab" aria-selected="true">Devant</button>
+            <button class="toggle__btn" data-face="back" role="tab" aria-selected="false">Dos</button>
+          </div>
+        </div>
+
+        <div class="signature__visual reveal" style="--d:.15s">
+
+          <!-- DEVANT -->
+          <figure class="tee tee--front is-active" data-face="front">
+            <svg class="tee__shape" viewBox="0 0 300 340" aria-hidden="true">
+              <path d="M95 40 L120 25 C135 40 165 40 180 25 L205 40 L255 70 L235 110 L215 98 L215 310 L85 310 L85 98 L65 110 L45 70 Z"/>
+            </svg>
+            <figcaption class="tee__print tee__print--front">
+              <span class="tee__logo">A<span class="logo__z">Z</span>ELEY</span>
+            </figcaption>
+          </figure>
+
+          <!-- DOS -->
+          <figure class="tee tee--back" data-face="back">
+            <svg class="tee__shape" viewBox="0 0 300 340" aria-hidden="true">
+              <path d="M95 40 L120 25 C135 40 165 40 180 25 L205 40 L255 70 L235 110 L215 98 L215 310 L85 310 L85 98 L65 110 L45 70 Z"/>
+            </svg>
+            <figcaption class="tee__print tee__print--back">
+              <span class="tee__logo tee__logo--big">A<span class="logo__z">Z</span>ELEY</span>
+
+              <!-- Plan stylisé des arrondissements de Paris -->
+              <svg class="paris" viewBox="0 0 400 320" role="img" aria-label="Plan stylisé des 20 arrondissements de Paris">
+                <path class="paris__outline" d="M60 160 C50 110 90 70 150 55 C210 42 290 45 330 75 C365 100 360 150 350 180 C342 215 320 255 270 270 C220 283 140 278 95 250 C65 230 70 200 60 160 Z"/>
+                <!-- Quelques lignes de l'escargot, suggérées -->
+                <path class="paris__lines" d="M200 60 C150 90 130 140 160 180 C190 215 250 215 280 185"/>
+                <path class="paris__lines" d="M120 120 C150 150 150 200 110 230"/>
+                <path class="paris__lines" d="M300 110 C320 150 300 200 250 240"/>
+                <!-- Chiffres romains (escargot I → XX) -->
+                <text class="paris__num" x="198" y="168">I</text>
+                <text class="paris__num" x="208" y="140">II</text>
+                <text class="paris__num" x="236" y="150">III</text>
+                <text class="paris__num" x="236" y="184">IV</text>
+                <text class="paris__num" x="214" y="206">V</text>
+                <text class="paris__num" x="178" y="202">VI</text>
+                <text class="paris__num" x="150" y="180">VII</text>
+                <text class="paris__num" x="158" y="138">VIII</text>
+                <text class="paris__num" x="198" y="112">IX</text>
+                <text class="paris__num" x="244" y="118">X</text>
+                <text class="paris__num" x="276" y="162">XI</text>
+                <text class="paris__num" x="290" y="208">XII</text>
+                <text class="paris__num" x="234" y="242">XIII</text>
+                <text class="paris__num" x="172" y="248">XIV</text>
+                <text class="paris__num" x="108" y="226">XV</text>
+                <text class="paris__num" x="90" y="162">XVI</text>
+                <text class="paris__num" x="128" y="98">XVII</text>
+                <text class="paris__num" x="206" y="74">XVIII</text>
+                <text class="paris__num" x="300" y="96">XIX</text>
+                <text class="paris__num" x="322" y="150">XX</text>
+              </svg>
+
+              <span class="tee__slogan">
+                Un <span class="accent">Maximum</span> pour être un<br />
+                <span class="accent">Minimum</span> pour devenir
+              </span>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== NOTRE VISION ====================== -->
+    <section class="section vision" id="vision">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">04</span>
+          <h2 class="section__title">Notre <span class="accent">vision</span></h2>
+          <p class="section__sub">Trois phases. Un seul cap : redonner plus qu'on a reçu.</p>
+        </div>
+
+        <ol class="phases">
+          <li class="phase reveal" style="--d:.0s">
+            <span class="phase__num">Phase 01</span>
+            <h3 class="phase__title">L'accès</h3>
+            <p>Des vêtements accessibles, qualitatifs, portés au quotidien. Faire entrer le plus grand nombre dans le mouvement, sans barrière.</p>
+          </li>
+          <li class="phase reveal" style="--d:.12s">
+            <span class="phase__num">Phase 02</span>
+            <h3 class="phase__title">L'ambition</h3>
+            <p>Des collections plus travaillées, plus rares, plus fortes. On élève le geste, la matière, le message. La marque grandit avec sa communauté.</p>
+          </li>
+          <li class="phase reveal" style="--d:.24s">
+            <span class="phase__num">Phase 03</span>
+            <h3 class="phase__title">L'altruisme</h3>
+            <p>Le but final : des projets solidaires concrets. Une part de ce qu'AZELEY génère retourne à la rue, aux quartiers, à celles et ceux qui montent.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ====================== CONTACT ====================== -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+
+        <div class="contact__intro reveal">
+          <span class="section__index">05</span>
+          <h2 class="section__title">Rejoindre le <span class="accent">mouvement</span></h2>
+          <p class="contact__lead">
+            Une question, une collaboration, l'envie d'avancer avec nous ?
+            Laisse un mot. On répond à tout le monde.
+          </p>
+          <ul class="contact__links">
+            <li><span>Email</span><a href="mailto:contact@azeley.fr">contact@azeley.fr</a></li>
+            <li><span>Instagram</span><a href="#" rel="noopener">@azeley.fr</a></li>
+            <li><span>Lieu</span><a href="#">Paris, France</a></li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" style="--d:.1s" novalidate>
+          <div class="field">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Ton nom" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="toi@email.fr" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Dis-nous tout" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Envoyer</button>
+          <p class="form__feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================== FOOTER ====================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="logo logo--footer">A<span class="logo__z">Z</span>ELEY</a>
+      <p class="footer__slogan">Un Maximum pour être un Minimum pour devenir.</p>
+      <nav class="footer__nav" aria-label="Navigation pied de page">
+        <a href="#mentalite">Mentalité</a>
+        <a href="#collection">Collection</a>
+        <a href="#vision">Vision</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> AZELEY — Paris. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
