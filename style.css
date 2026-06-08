@@ -856,7 +856,7 @@ a.community__tile:hover .community__img { transform: scale(1.05); }
 
 /* --- #5 Drop / Newsletter --- */
 .drop {
-  background: linear-gradient(120deg, rgba(193, 18, 31, .14), var(--noir-2));
+  background: url("assets/motif-az.svg") repeat, linear-gradient(120deg, rgba(193, 18, 31, .14), var(--noir-2));
   border-block: 1px solid rgba(245, 245, 242, .08);
   padding: clamp(40px, 7vw, 80px) 0;
 }
@@ -896,6 +896,20 @@ a.community__tile:hover .community__img { transform: scale(1.05); }
 
 /* --- #7 Hero : logo réactif --- */
 .hero__brand-mark { transition: transform .35s var(--ease); will-change: transform; }
+
+/* --- Série 2 : texture asphalte (sections) + sceau footer --- */
+.mentalite, .vision {
+  background-image: url("assets/texture-asphalt.svg");
+  background-size: cover;
+  background-position: center;
+}
+.footer__seal {
+  width: 92px; height: 92px;
+  margin-bottom: 6px;
+  opacity: .9;
+  animation: sealSpin 28s linear infinite;
+}
+@keyframes sealSpin { to { transform: rotate(360deg); } }
 
 /* --- #10 Footer enrichi + retour en haut --- */
 .footer__socials { display: flex; gap: 14px; }
